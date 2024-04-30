@@ -1,0 +1,40 @@
+{
+  "name": "toast-it",
+  "description": "A simple toast library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Dhafit Farenza",
+  "umd": "toastIt",
+  "main": "dist/toast-it.cjs",
+  "module": "dist/toast-it.js",
+  "browser": "dist/toast-it.umd.js",
+  "jsdelivr": "./dist/toast-it.umd.js",
+  "unpkg": "./dist/toast-it.umd.js",
+  "types": "dist/toast-it.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "toast",
+    "notification",
+    "alert"
+  ],
+  "homepage": "https://github.com/dhafitf/toast-it#readme",
+  "repository": {
+    "url": "https://github.com/dhafitf/toast-it"
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "goober": "^2.1.14"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.4.17",
+    "esbuild-plugin-umd-wrapper": "^2.0.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
